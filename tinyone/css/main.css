@@ -1,0 +1,216 @@
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h4, h5 {
+  font-weight: 700;
+  color: #010101;
+}
+
+h3 {
+  font-weight: 400;
+  color: #010101;
+}
+
+h2 {
+  text-align: center;
+}
+
+.header {
+  background-color: #fcdb00;
+  color: #010101;
+  padding-top: 58px;
+  padding-bottom: 105px;
+}
+
+.menu__item a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #010101;
+  margin: 0 57px;
+}
+
+.menu__item a:hover {
+  text-decoration: none;
+  color: #010101;
+}
+
+.offer {
+  margin-top: 117px;
+}
+
+.offer .offer__title {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.offer .offer__intro {
+  font-size: 20px;
+  line-height: 1.3em;
+  max-width: 400px;
+}
+
+.offer .offer__text {
+  font-size: 16px;
+  margin-top: 15px;
+  color: #555555;
+  max-width: 400px;
+}
+
+.icons__item {
+  color: #010101;
+  font-size: 42px;
+  margin-right: 30px;
+}
+
+.icons__item:hover {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.ipad {
+  display: block;
+  margin: 60px auto 0;
+}
+
+.title {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.title__main {
+  font-size: 32px;
+}
+
+.title__text {
+  font-size: 20px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.feature {
+  margin-bottom: 65px;
+}
+
+.feature:hover {
+  -webkit-box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+          box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+  border-radius: 10px;
+}
+
+.feature__icon {
+  font-size: 50px;
+  margin-right: 37px;
+}
+
+.feature__text {
+  color: #555555;
+}
+
+.touch {
+  background-color: #010101;
+  color: white;
+}
+
+.touch .title__main {
+  color: #fcdb00;
+}
+
+.email {
+  text-align: center;
+}
+
+.email__input {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 580px;
+  padding: 14px 0 14px 23px;
+  margin-right: 21px;
+  border: 0;
+  outline: none;
+}
+
+.email__btn {
+  font-family: "PT Sans", sans-serif;
+  background-color: #fcdb00;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  width: 126px;
+  padding: 14px 0;
+  color: #010101;
+  cursor: pointer;
+  border: 1px solid #fcdb00;
+  outline: none;
+}
+
+.footer {
+  background-color: #010101;
+  padding: 50px 0 94px;
+}
+
+.credits {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  width: 184px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+  .logo {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .offer {
+    text-align: center;
+  }
+  .offer__text, .offer__intro {
+    margin: auto;
+    width: auto;
+  }
+  .email__input {
+    margin-right: 0;
+    width: 100%;
+  }
+  .email__btn {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .icons__item:nth-child(3) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .ipad {
+    width: 100%;
+  }
+  .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .menu__item {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=main.css.map */
